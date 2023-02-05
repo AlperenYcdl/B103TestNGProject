@@ -24,7 +24,6 @@ public class Day23_ExcelLogin {
     public void login(){
 //        Sayfaya git
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
-
 //        home page logine tikla
         blueRentalHomePage= new BlueRentalHomePage();
         blueRentalLoginPage = new BlueRentalLoginPage();
